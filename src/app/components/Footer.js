@@ -19,16 +19,16 @@ export default function Footer() {
         <div className="container pt-4">
           {/* Social Media Section */}
           <section className="mb-4">
-            <Link href="mailto:your-email@example.com">
+            <Link href="mailto:geraldowwm@gmail.com">
               <i className="fa-regular fa-envelope btn btn-link btn-floating btn-lg text-dark m-1" role="button" data-mdb-ripple-color="dark"></i>
             </Link>
-            <Link href="https://www.instagram.com/your-instagram/">
+            <Link href="https://www.instagram.com/22dodo__/">
               <i className="fab fa-instagram btn btn-link btn-floating btn-lg text-dark m-1" role="button" data-mdb-ripple-color="dark"></i>
             </Link>
-            <Link href="https://www.linkedin.com/in/your-linkedin/">
+            <Link href="https://www.linkedin.com/in/geraldogosal/">
               <i className="fab fa-linkedin btn btn-link btn-floating btn-lg text-dark m-1" role="button" data-mdb-ripple-color="dark"></i>
             </Link>
-            <Link href="https://github.com/your-github">
+            <Link href="https://github.com/22dodo">
               <i className="fab fa-github btn btn-link btn-floating btn-lg text-dark m-1" role="button" data-mdb-ripple-color="dark"></i>
             </Link>
           </section>
