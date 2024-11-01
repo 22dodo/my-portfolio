@@ -10,7 +10,7 @@ export default function GrimRepair() {
     <>
       <Section>
         <h1>Grim Repair</h1>
-        <Grid className="row-cols-lg-2 row-cols-sm-1">
+        <Grid className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
           <div className="col">
             <h3>Overview</h3>
             <p>Grim Repair is designed to simplify the process of repairing electronic devices and offer an end-to-end repair service including pickup, tracking, and delivery.</p>
@@ -129,7 +129,7 @@ export default function GrimRepair() {
         </Grid>
       </Section>
 
-      <Section title="Development">
+      <Section className="body-alt-color" title="Development">
         <p>3 applications were used for this prototype development. Balsamic, to sketch out the low-fidelity prototype. These sketches were then transformed with Adobe XD to provide a more contrasting and vibrant look. Lastly, we integrated Protopie to
         implement micro interaction to achieve hi-fidelity.</p>
         <ImageCard src="/assets/images/grimrepair/framework.png" alt="Framework" width={1200} height={600} />

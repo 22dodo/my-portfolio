@@ -10,7 +10,7 @@ export default function Triviayay() {
         <>
             <Section>
                 <h1>Triviayay</h1>
-                <Grid className="row-cols-lg-2 row-cols-sm-1">
+                <Grid className="rrow row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
                     <div className="col">
                         <h3>Overview</h3>
                         <p>Triviayay is an arcade-style trivia game that relies on the use of an arduino uno and an RFID system as its underlying technology.</p>
