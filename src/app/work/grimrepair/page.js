@@ -73,10 +73,10 @@ export default function GrimRepair() {
         <p>Few initial design mock-ups were created:</p>
         <ImageCard src="/assets/images/grimrepair/lofiandmidfi.png" alt="Design Mock-ups" width={1200} height={600} />
         <p>After conducting an interview and usability testing with 10 individuals, their inputs were gathered. My team conducted an affinity diagram to map out what we had done well and what needed to improve. We started coding an interview and grouped
-          them under the 'driver' and 'customer' categories. By using the bottom-up approach, we grouped the code into categories and sub-categories that focuses on the app’s features. In the final iteration, a bottom-up approach was used to further
+          them under the &apos;driver&apos; and &apos;customer&apos; categories. By using the bottom-up approach, we grouped the code into categories and sub-categories that focuses on the app’s features. In the final iteration, a bottom-up approach was used to further
           refine the categories in clear and meaningful themes.</p>
         <p>After conducting an interview and usability testing with 10 individuals, their inputs were gathered. My team conducted an affinity diagram to map out what we had done well and what needed to improve. We started coding an interview and grouped
-        them under the 'driver' and 'customer' categories. By using the bottom-up approach, we grouped the code into categories and sub-categories that focuses on the app’s features. In the final iteration, a bottom-up approach was used to further
+        them under the &apos;driver&apos; and &apos;customer&apos; categories. By using the bottom-up approach, we grouped the code into categories and sub-categories that focuses on the app’s features. In the final iteration, a bottom-up approach was used to further
         refine the categories in clear and meaningful themes.</p>
         <Grid className="row row-cols-lg-2 row-cols-sm-1">
           <Grid className="col">
