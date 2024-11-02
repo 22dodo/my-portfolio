@@ -8,7 +8,7 @@ export default function About() {
     <>
       <div className="">
         <div className="container py-5 px-5">
-          <div className="row row-cols-lg-2 row-cols-sm-1 w-75 m-auto">
+          <div className="row row-cols-1 row-cols-lg-2 row-cols-sm-1 w-75 m-auto">
             <div className="col">
               <Image
                 src="/assets/images/gallery/about.jpg" // Path based on `public` folder
@@ -32,7 +32,7 @@ export default function About() {
 
       {/* Image Gallery */}
       <div className="px-5 py-5">
-        <div className="d-flex row row-cols-lg-4 row-cols-sm-2">
+        <div className="d-flex row row-cols-lg-4 row-cols-sm-1 row-cols-1">
           {["image26.jpg", "profile2.jpg", "profile3.jpg", "profile4.jpg"].map((img, index) => (
             <div key={index} className="col">
               <Image

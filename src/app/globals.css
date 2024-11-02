@@ -6,6 +6,33 @@ body {
   background: #f0f0f0;
 }
 
+.container {
+  padding: 0 1rem; /* Default padding for larger screens */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0; /* Remove padding on smaller screens */
+  }
+}
+
+.navbar {
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem; /* Adjust padding on mobile */
+  }
+}
+
 header {
   background: #333;
   color: #fff;

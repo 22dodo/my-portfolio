@@ -1,11 +1,11 @@
-// src/app/components/Header.js
 import Link from 'next/link';
+import styles from './Header.module.css'; // Import the CSS module
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-lg py-4 px-5" style={{ backgroundColor: 'white' }}>
+    <nav className={`navbar navbar-expand-lg ${styles.navbar}`}>
       <div className="container-fluid">
-        <Link href="/" className="navbar-brand fs-2">
+        <Link href="/" className={`navbar-brand ${styles['navbar-brand']}`}>
           Geraldo Gosal
         </Link>
         <button
