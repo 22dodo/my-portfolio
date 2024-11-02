@@ -1,7 +1,7 @@
 // src/app/components/MasonryLayout.js
 import Image from 'next/image';
 
-const MasonryLayout = ({ images = [], numImages = 25 }) => {
+const MasonryLayout = ({ images = [], numImages = 49 }) => {
   const displayImages = images.length > 0 
     ? images 
     : Array.from({ length: numImages }, (_, i) => `/assets/images/gallery/image${i + 1}.jpg`);
