@@ -20,11 +20,11 @@ export default function About() {
             </div>
             <div className="col">
               <h1 className="pt-3">About me!</h1>
-              <p>Hey, I'm Geraldo, an Interaction Design grad from the University of Technology Sydney. I'm all about making tech simple and user-friendly, 
-                especially in the UI/UX space. Whether it's coursework or projects, my goal is creating designs that people find easy to use and, well, just plain like.</p>
-              <p>Outside of the design hustle, you'll find me chilling with music and snapping photos. Music and photography let me unwind and bring a creative spin to life. It's my way of balancing the structured design world with something a bit more free-spirited.</p>
-              <p>Now, when I'm not in the digital world, I'm diving into the hardware side of things. I love tinkering with gadgets in my free time, figuring out how they tick. 
-                It's not just a hobby; it's my way of staying on top of tech trends and keeping things fresh. My profile? It's a mix of design smarts from school, creativity from my downtime, and a hands-on love for tech - all rolled into one neat package.</p>
+              <p>Hey, I&apos;m Geraldo, an Interaction Design grad from the University of Technology Sydney. I&apos;m all about making tech simple and user-friendly, 
+                especially in the UI/UX space. Whether it&apos;s coursework or projects, my goal is creating designs that people find easy to use and, well, just plain like.</p>
+              <p>Outside of the design hustle, you&apos;ll find me chilling with music and snapping photos. Music and photography let me unwind and bring a creative spin to life. It&apos;s my way of balancing the structured design world with something a bit more free-spirited.</p>
+              <p>Now, when I&apos;m not in the digital world, I&apos;m diving into the hardware side of things. I love tinkering with gadgets in my free time, figuring out how they tick. 
+                It&apos;s not just a hobby; it&apos;s my way of staying on top of tech trends and keeping things fresh. My profile? It&apos;s a mix of design smarts from school, creativity from my downtime, and a hands-on love for tech - all rolled into one neat package.</p>
             </div>
           </div>
         </div>
