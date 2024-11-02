@@ -24,7 +24,7 @@ export default function Header() {
             <Link href="/" className="nav-link" aria-current="page">
               Work
             </Link>
-            <Link href="/" className="nav-link" aria-current="page">
+            <Link href="/gallery" className="nav-link" aria-current="page">
               Gallery
             </Link>
             <Link href="/about" className="nav-link">

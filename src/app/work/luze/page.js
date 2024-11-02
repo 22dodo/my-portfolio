@@ -11,7 +11,7 @@ export default function luze() {
         <>
             <Section>
                 <h1>Luze</h1>
-                <Grid className="row-cols-lg-2 row-cols-sm-1">
+                <Grid className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
                     <div className="col">
                         <h3>Overview</h3>
                         <p>Luze is a personalised time management tool designed for the user to map out and structure their daily activities. It has the ability to provide visual insights (charts) in a weekly routine to keep track of your productivity progress.</p>
