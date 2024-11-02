@@ -7,7 +7,7 @@ const MasonryLayout = ({ images = [], numImages = 25 }) => {
     : Array.from({ length: numImages }, (_, i) => `/assets/images/gallery/image${i + 1}.jpg`);
 
   return (
-    <section className="columns-3 md:columns-4 lg:columns-5 gap-4 mx-auto">
+    <section className="columns-1 md:columns-2 lg:columns-5 gap-3 mx-auto">
       {displayImages.map((src, index) => (
         <div key={index} className="mb-4 break-inside-avoid">
           <Image

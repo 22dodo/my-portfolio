@@ -21,7 +21,7 @@ export default function PortfolioGrid() {
         Hello! I’m Geraldo, a <span className={styles.typewriter}>{typewriterText}</span> based in Sydney, AU.
       </h1>
       <div className="d-flex justify-content-center">
-        <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+        <div className="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
           {projects.map((project, index) => (
             <Link href={project.href} key={index} className="col mb-4">
               <div className={styles.imgContainer}>
